@@ -1,9 +1,15 @@
+import React from "react";
+import MyMap from "./components/MyMap/MyMap";
+import RoutesOnMap from "./components/RoutesOnMap/RoutesOnMap";
+import { AppWrapper } from "./styles/index";
 
-function App() {
+const App = () => {
   return (
-    <div>
-    </div>
+    <AppWrapper>
+      <RoutesOnMap />
+      <MyMap />
+    </AppWrapper>
   );
-}
+};
 
 export default App;
